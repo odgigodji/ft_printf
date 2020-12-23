@@ -25,103 +25,109 @@ int 	main(void)
 	int d7 = -12;
 	int d = 577;
 
-int b ;
-int a = ft_printf("%%%%%%%%%%%%%%%%%%%%{%0.25v}\n1234a",20);
-b = a;
-	ft_printf("{%p}",1234);
-	ft_printf("-%d-\n", a);
-	printf("TESTO:|%-7d|\n", -14);
-	ft_printf("TESTM:|%-7d|\n", -14);
 
-ft_strlen(NULL);
-	printf("%04.*X\n", -1 ,d0 );
-	a = ft_printf("%x \n", 1234);
+	ft_printf("%r",200);
 
-	printf("[%d]", a);
-	ft_printf("[%a]", b);
-//	b = printf("%\n12345",20);
-	printf("|%d|\n|%d|", a, b);
-
-
-	int t = printf("|%-.0i, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d|\n", d0,
-			  d1,d2,
-		   d3,d4,d5,d6,d7);
-//	printf("%a\n",a);
-	b = printf("%x\n", 0 );
-	printf("%d\n",b);
-	ft_printf("|%-.0i, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d|\n", d0, d1,d2,
-		   d3,d4,d5,d6,d7);
-	printf("%d",g_res);
+//	int b ;
+//int a = ft_printf("%%%%%%%%%%%%%%%%%%%%{%0.25v}\n1234a",20);
+//b = a;
+//	ft_printf("+++{%p}",1234);
+//	ft_printf("+++-%d-\n", a);
+//	printf("TESTO:|%-7d|\n", -14);
+//	ft_printf("+++TESTM:|%-7d|\n", -14);
 //
-//while(1)
-//{
+//ft_strlen(NULL);
+//	printf("%04.*X\n", -1 ,d0 );
+//	a = ft_printf("+++%x \n", 1234);
+//
+//	printf("[%d]", a);
+//	ft_printf("+++[%a]", b);
+////	b = printf("%\n12345",20);
+//	printf("|%d|\n|%d|", a, b);
+//
+//
+//	int t = printf("|%-.0i, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d|\n", d0,
+//			  d1,d2,
+//		   d3,d4,d5,d6,d7);
+////	printf("%a\n",a);
+//	b = printf("%x\n", 0 );
+//	printf("%d\n",b);
+//	ft_printf("+++|%-.0i, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d, %-.0d|\n", d0, d1,d2,
+//		   d3,d4,d5,d6,d7);
+//	printf("%d",g_res);
+////
+////while(1)
+////{
+////	;
+////}
+//
+//	ft_printf("|%d|", -216);
+//	printf("%07d\n", -54);
+//	ft_printf("%07d\n", -54);
+////	ft_printf("%0d\n\n",d);
+////
+//	printf("%05d\n", 43);
+//	ft_printf("%05d\n", 43);
+//	printf("%-10.5d\n",d);
+//	ft_printf("%-10.5d\n\n",d);
+////
+//	printf("%-5.0d\n",0);
+//	ft_printf("%-5.0d\n",0);
+//
+//	printf("%-8.5u number\n",0);
+//	ft_printf("%-8.5u number\n\n",0);
+//
+//	printf("%15.20d\n",d);
+//	printf("%015.20d\n",d);
+//	ft_printf("%15.20d\n",d);
+//	ft_printf("%015.20d\n\n",d);
+//
+//	printf("%3d\n",d);
+//	printf("%03d\n",d);
+//	ft_printf("%3d\n",d);
+//	ft_printf("%03d\n\n",d);
+//
+//	printf("%3.15d\n",d);
+//	printf("%03.15d\n",d);
+//	ft_printf("%3.15d\n",d);
+//	ft_printf("%03.15d\n\n",d);
+//
+//	printf("%.d\n",d);
+//	printf("%0.d\n",d);
+//	ft_printf("%.d\n",d);
+//	ft_printf("%0.d\n\n",d);
+//
+//	printf("%15.d\n",d);
+//	printf("%015.d\n",d);
+//	ft_printf("%15.d\n",d);
+//	ft_printf("%015.d\n\n",d);
+
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//	printf("%d\n",d);
+//while (1)
 //	;
-//}
-
-	ft_printf("|%d|", -216);
-	printf("%07d\n", -54);
-	ft_printf("%07d\n", -54);
-//	ft_printf("%0d\n\n",d);
-//
-	printf("%05d\n", 43);
-	ft_printf("%05d\n", 43);
-	printf("%-10.5d\n",d);
-	ft_printf("%-10.5d\n\n",d);
-//
-	printf("%-5.0d\n",0);
-	ft_printf("%-5.0d\n",0);
-
-	printf("%-8.5u number\n",0);
-	ft_printf("%-8.5u number\n\n",0);
-
-	printf("%15.20d\n",d);
-	printf("%015.20d\n",d);
-	ft_printf("%15.20d\n",d);
-	ft_printf("%015.20d\n\n",d);
-
-	printf("%3d\n",d);
-	printf("%03d\n",d);
-	ft_printf("%3d\n",d);
-	ft_printf("%03d\n\n",d);
-
-	printf("%3.15d\n",d);
-	printf("%03.15d\n",d);
-	ft_printf("%3.15d\n",d);
-	ft_printf("%03.15d\n\n",d);
-
-	printf("%.d\n",d);
-	printf("%0.d\n",d);
-	ft_printf("%.d\n",d);
-	ft_printf("%0.d\n\n",d);
-
-	printf("%15.d\n",d);
-	printf("%015.d\n",d);
-	ft_printf("%15.d\n",d);
-	ft_printf("%015.d\n\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
-//	printf("%d\n",d);
 }
 
 int		main1(void)
