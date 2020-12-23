@@ -26,8 +26,12 @@ int 	main(void)
 	int d = 577;
 
 
-	ft_printf("%r",200);
+	ft_printf("%x",200);
+	ft_printf("%X",200);
+	ft_printf("%p",200);
 
+	while (1)
+		;
 //	int b ;
 //int a = ft_printf("%%%%%%%%%%%%%%%%%%%%{%0.25v}\n1234a",20);
 //b = a;
