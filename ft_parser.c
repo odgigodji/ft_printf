@@ -96,8 +96,6 @@ t_value	ft_type_parser(char **str, va_list ap, char *type, int *len)
 		value.p = atoi_16(va_arg(ap, unsigned long), 0, &value.error, 1);
 	if (**str == '%' && (*type = '%'))
 		*len = 1;
-	if (!(ft_strchr("dcsuxiXp%", **str)))
-		value.error = -1;
 	(*str)++;
 	return (value);
 }

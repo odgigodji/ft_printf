@@ -20,6 +20,7 @@ int		ft_printf(const char *str, ...)
 	g_res = 0;
 	if (!(spec = (t_spec*)malloc(sizeof(t_spec))))
 		return (-1);
+	spec->type = '\0';
 	va_start(ap, str);
 	while (*str)
 	{
