@@ -1,7 +1,7 @@
 # ft_printf
 
 ## Вызов в коде 
-```
+```c
 ft_printf("Hello World!");
 ft_printf("%d", 42);
 ft_printf("%s %s!\n", "Hello", "World");
