@@ -36,3 +36,5 @@
 
 Командой make компилируем ft_printf и создаём библиотеку libftprintf.a, которую можно будет использовать в дальнейших проектах. 
 
+## Источники:
+[man printf rus](https://www.opennet.ru/man.shtml?topic=printf&category=3&russian=0)
