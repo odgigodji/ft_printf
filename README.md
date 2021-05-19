@@ -2,7 +2,7 @@
 
 ## Вызов в коде 
 ```
-#include "ft_printf.h"
+#include "ft_printf.h";
 ft_printf("Hello world!");
 ```
 ## Структура ft_printf
