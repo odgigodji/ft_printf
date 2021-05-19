@@ -36,6 +36,12 @@
 
 Командой make компилируем ft_printf и создаём библиотеку libftprintf.a, которую можно будет использовать в дальнейших проектах. 
 
+Компилируем наш `` main.c `` с библиотекой `` libftprintf.a ``
+
+```
+gcc main.c libftprintf.a
+```
+
 ## Источники:
 [man printf rus](https://www.opennet.ru/man.shtml?topic=printf&category=3&russian=0)
 [man fprintf](https://pubs.opengroup.org/onlinepubs/009695399/functions/fprintf.html)
