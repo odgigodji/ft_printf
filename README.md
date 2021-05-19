@@ -2,8 +2,9 @@
 
 ## Вызов в коде 
 ```
-#include "ft_printf.h";
-ft_printf("Hello world!");
+ft_printf("Hello World!");
+ft_printf("%d", 42);
+ft_printf("%s %s!\n", "Hello", "World");
 ```
 ## Структура ft_printf
 
